@@ -91,7 +91,7 @@ p = Point(2,3)
 print(p.x)
 print(p.y)#
 """
-
+"""
 class Flight():
     def __init__(self, capacity): #create new flight
         self.capacity = capacity
@@ -107,10 +107,11 @@ class Flight():
         return self.capacity-len(self.passangers)
 
 flight = Flight(3) #define max number of available seats for Flight
-people = ["Adka", "Matko", "Misko", "Lojzik"]
+people = ["Adka", "Matko", "Misko", "Luki"]
 for person in people:
     success = flight.add_passenger(person)
     if success:
         print(f"Added {person} to flight successfully")
     else:
         print(f"No available seats for {person}")
+"""
